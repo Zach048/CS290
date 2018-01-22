@@ -1,0 +1,139 @@
+<!-- 
+Name: Zach Earl
+Class: CS290
+Date: 1/18/18
+
+Assignment #1
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  	<title>CS290 Assignment 1</title>
+	<link rel="stylesheet" href="content.css" type="text/css">
+</head>
+<body>
+	<table>
+		<caption>NBA Pacific Division</caption>
+		<thead>
+			<tr>
+				<th></th>
+				<th> Wins</th>
+				<th> Losses</th>
+				<th> Home </th>
+				<th> Road</th>
+				<th> Division</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td> Lakers</td>
+				<td> 15</td>
+				<td> 27</td>
+				<td> 9-14</td>
+				<td> 6-13</td>
+				<td> 3-8</td>
+			</tr>
+			<tr>
+				<td> Warriors</td>
+				<td> 35</td>
+				<td> 9</td>
+				<td> 16-6</td>
+				<td> 19-3</td>
+				<td> 5-2</td>
+			</tr>
+			<tr>
+				<td> Clippers</td>
+				<td> 21</td>
+				<td> 21</td>
+				<td> 12-9</td>
+				<td> 9-12</td>
+				<td> 10-2</td>
+			</tr>
+			<tr>
+				<td> Suns</td>
+				<td> 16</td>
+				<td> 28</td>
+				<td> 8-16</td>
+				<td> 8-12</td>
+				<td> 3-5</td>
+			</tr>
+			<tr>
+				<td> Kings</td>
+				<td> 13</td>
+				<td> 29</td>
+				<td> 7-13</td>
+				<td> 6-16</td>
+				<td> 3-7</td>
+			</tr>
+	</tbody>
+	<tfoot>
+		<td colspan="2"> Footer 1</td>	<!--column spans 2 cells-->
+		<td colspan="4"> Footer 2</td>	<!--column spans 4 cells-->
+	</tfoot>
+</table>
+
+<ol>			<!--ordered list -->
+	<li>Warriors</li>
+	<li>Clippers</li>
+	<li>Suns</li>
+	<li>Lakers</li>
+	<li>Kings</li>
+</ol>
+
+<div class = "outer-content">
+	<div class = "inner-content">Content Here</div>
+</div>
+
+<form action = "http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method = "get">  <!--get method *only difference* -->
+	<fieldset>
+	<legend>Get Data:</legend>
+	<label>Name:
+		<input type = "text" name = "text_input" size = "30" maxlength = "100">
+	</label>
+	<br/>
+	<label>Age:
+		<input type = "number" name = "numerical_input" size = "30" maxlength = "100">
+	</label>
+	<br/>
+	<label>Password:
+		<input type = "password" name = "password_input" minlength = "8" maxlength = "100">
+	</label>
+	<br/>
+	<p>Favorite candy:
+	<br/>
+		<input type = "radio" name = "candy" value = "Snickers"/> Snickers
+		<input type = "radio" name = "candy" value = "Skittles"/> Skittles
+		<input type = "radio" name = "candy" value = "Mentos"/> Mentos
+	</p>
+	<input type = "submit" value = "Submit"/>
+	</fieldset>
+</form>
+
+<form action = "http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method = "post"> <!--Post method-->
+	<fieldset>
+	<legend>Post Data:</legend>
+	<label>Name:
+		<input type = "text" name = "text_input" size = "30" maxlength = "100">
+	</label>
+	<br/>
+	<label>Age:
+		<input type = "number" name = "numerical_input" size = "30" maxlength = "100">
+	</label>
+	<br/>
+	<label>Password:
+		<input type = "password" name = "password_input" minlength = "8" maxlength = "100">
+	</label>
+	<br/>
+	<p>Favorite candy:
+	<br/>
+		<input type = "radio" name = "candy" value = "Snickers"/> Snickers
+		<input type = "radio" name = "candy" value = "Skittles"/> Skittles
+		<input type = "radio" name = "candy" value = "Mentos"/> Mentos
+	</p>
+	<input type = "submit" value = "Submit"/>
+	</fieldset>
+</form>
+</body>
+</html>

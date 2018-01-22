@@ -1,0 +1,42 @@
+/* 
+Name: Zach Earl
+Class: CS290
+Date: 1/18/18
+*/
+
+.outer-content 
+{
+	width: 75%;
+	background-color: pink;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.inner-content
+{
+	background-color: lightblue;
+	width: 75%;
+	margin: 0 auto;
+	position: relative;		/* change in position is measured from this spot */
+	text-align: center;		/* centers text */
+}
+table
+{
+	border-collapse: collapse;	/* Like this style of border */
+}
+th, td
+{
+	border: 1px solid black;
+}
+tbody tr:nth-child(even)		/* Have to include tbody to exclude footer and thead */
+{
+	background-color: #54C7fC;
+}
+tbody tr:nth-child(odd)
+{
+	background-color: lightgrey;
+}
+tbody td:first-child	/* only italicize first row */
+{
+	font-style: italic;
+}
